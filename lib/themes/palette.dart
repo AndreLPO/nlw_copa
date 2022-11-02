@@ -12,4 +12,5 @@ class Pallete {
   static const Color green500 = Color(0xFF047C3F);
   static const Color fontSubtitle = Color(0xFFC4C4CC);
   static const Color inputBorder = Color(0xFF323238);
+  static const Color bgGoogle = Color(0xFFDB4437);
 }
