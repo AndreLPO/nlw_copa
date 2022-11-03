@@ -26,6 +26,7 @@ class ButtonMixStyle {
       iconColor(Pallete.white),
       paddingVertical(8),
       iconSize(16),
+      disabled(opacity(1), bgColor(Pallete.inputBorder)),
     ),
     press(
       opacity(.8),
