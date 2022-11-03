@@ -6,15 +6,15 @@ class BadgeMixStyle {
   static Mix style = Mix(
     height(32),
     width(32),
-    textColor(Pallete.grey100),
+    textColor(Palette.grey100),
     fontWeight(FontWeight.w500),
     align(Alignment.center),
     bgColor(
-      Pallete.grey500,
+      Palette.grey500,
     ),
     rounded(999),
     border(
-      color: Pallete.grey700,
+      color: Palette.grey700,
       width: 2,
     ),
   );

@@ -36,7 +36,7 @@ class Button extends StatelessWidget {
                     width: 20,
                     child: CircularProgressIndicator(
                       strokeWidth: 1.25,
-                      color: Pallete.black,
+                      color: Palette.black,
                     ),
                   )
                 ]

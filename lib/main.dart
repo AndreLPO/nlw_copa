@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Pallete.grey900,
+      backgroundColor: Palette.grey900,
       body: Padding(
         padding: const EdgeInsets.all(28),
         child: Column(
