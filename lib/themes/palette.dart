@@ -7,6 +7,7 @@ class Pallete {
   static const Color grey700 = Color(0xFF202024);
   static const Color grey500 = Color(0xFF29292E);
   static const Color grey300 = Color(0xff8D8D99);
+  static const Color grey100 = Color(0xffE1E1E6);
   static const Color yellow500 = Color(0xFFF7DD43);
   static const Color green300 = Color(0xFF129E57);
   static const Color green500 = Color(0xFF047C3F);
