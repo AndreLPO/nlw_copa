@@ -17,6 +17,9 @@ class ButtonMixStyle {
       iconColor(Pallete.white),
     ),
     press(
+      opacity(.8),
+    ),
+    disabled(
       opacity(.6),
     ),
     rounded(4),
