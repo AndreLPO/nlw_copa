@@ -89,8 +89,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Button(
                 label: "entrar com google",
-                icon: PhosphorIcons.google_logo_bold,
-                variant: [ButtonMixStyle.google],
+                endIcon: PhosphorIcons.check,
+                variant: [ButtonMixStyle.confirm],
                 onPressed: _incrementCounter,
               ),
               Text(

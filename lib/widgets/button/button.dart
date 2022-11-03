@@ -7,13 +7,15 @@ class Button extends StatelessWidget {
   const Button({
     Key? key,
     required this.onPressed,
-    this.icon,
+    this.startIcon,
     this.variant,
     required this.label,
     this.isLoading = false,
+    this.endIcon,
   }) : super(key: key);
   final String label;
-  final IconData? icon;
+  final IconData? startIcon;
+  final IconData? endIcon;
   final List<Variant>? variant;
   final VoidCallback onPressed;
   final bool isLoading;
@@ -39,9 +41,11 @@ class Button extends StatelessWidget {
                   )
                 ]
               : [
-                  if (icon != null) IconMix(icon),
+                  if (startIcon != null) IconMix(startIcon),
                   const SizedBox(width: 10),
                   TextMix(label),
+                  const SizedBox(width: 10),
+                  if (endIcon != null) IconMix(endIcon),
                 ],
         ),
       ),
