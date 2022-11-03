@@ -7,13 +7,9 @@ class Badge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(999),
-      clipBehavior: Clip.hardEdge,
-      child: Box(
-        mix: BadgeMixStyle.style,
-        child: const TextMix("0"),
-      ),
+    return Box(
+      mix: BadgeMixStyle.style,
+      child: const TextMix("0"),
     );
   }
 }
